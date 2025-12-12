@@ -142,12 +142,31 @@
         .hidden {
             display: none;
         }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Stellar Testnet Friendbot</h1>
-        <p class="subtitle">Fund your Stellar testnet wallet with test XLM</p>
+        <p class="subtitle">Fund your Stellar testnet account, smart account or contract with test XLM</p>
         
         <form id="fundForm">
             <div class="form-group">
@@ -169,6 +188,10 @@
         </form>
 
         <div id="message" class="message hidden"></div>
+
+        <div class="footer">
+            With ❤️ by <a href="https://x.com/esteblock_dev" target="_blank">esteblock</a> 🥑
+        </div>
     </div>
 
     <script type="module" src="/main.js"></script>
