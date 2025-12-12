@@ -1,0 +1,18 @@
+{
+  "name": "stellar-friendbot-frontend",
+  "version": "1.0.0",
+  "description": "Simple frontend to fund Stellar testnet wallets using friendbot",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^14.4.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
+
